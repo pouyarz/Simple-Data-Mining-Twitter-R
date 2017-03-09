@@ -2,10 +2,10 @@ require(twitteR)
 require(tm)
 require(wordcloud)
 
-api_key <- "6DH6eDvGWnLnnRfL10y3Lb6hM"
-api_secret <- "CI8Jtn2JR56I0VpW6DqCJwYd8k0H0AjmdugM4N69Ijy4qub4KH"
-access_token <- ""
-access_token_secret <- ""
+api_key <- ""                   #Input your info
+api_secret <- ""                #Input your info
+access_token <- ""              #Input your info
+access_token_secret <- ""       #Input your info
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 
 sport<-searchTwitter("basketball OR volleyball OR hockey OR football OR handball OR skate OR skating OR judo OR hiking OR hike OR racquetball OR rock climbing OR soccer OR aerobics OR surfing OR swimming OR swim OR tennis OR soccer OR baseball OR skiing OR sky OR gymnastics OR dance OR dancing OR biking OR bike OR run OR running OR badminton OR fitness OR golf", n=5000, lang = "en" , resultType = "recent")
