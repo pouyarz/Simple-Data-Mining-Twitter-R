@@ -6,10 +6,10 @@ require(tm) # provides fundtion for text mining
 # The most used keywords stand out better in a word cloud. Word clouds are a potent communication tool. They are easy to understand, to be shared and are impactful
 install.packages("wordcloud")
 require(wordcloud) # visualizes result with cloud 
-api_key <- "6DH6eDvGWnLnnRfL10y3Lb6hM"
-api_secret <- "CI8Jtn2JR56I0VpW6DqCJwYd8k0H0AjmdugM4N69Ijy4qub4KH"
-access_token <- ""
-access_token_secret <- ""
+api_key <- ""               #Input your info
+api_secret <- ""            #Input your info
+access_token <- ""          #Input your info
+access_token_secret <- ""   #Input your info
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 getTrends(woeid = 23424977)
 sport<-searchTwitter("basketball OR volleyball OR judo OR hockey OR football OR marathon OR handball OR skate OR skating OR judo OR jiuJitsu OR jujitsu OR  OR lacrosse OR hiking OR hike OR racquetball OR rapelling OR rock climbing OR soccer OR aerobics OR surfing OR swimming OR swim", n=742, lang = "en" , resultType = "recent")
