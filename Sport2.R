@@ -3,10 +3,10 @@ require(tm)
 require(wordcloud)
 require(ggplot2)
 
-api_key <- "6DH6eDvGWnLnnRfL10y3Lb6hM"
-api_secret <- "CI8Jtn2JR56I0VpW6DqCJwYd8k0H0AjmdugM4N69Ijy4qub4KH"
-access_token <- ""
-access_token_secret <- ""
+api_key <- ""                   #Input your info
+api_secret <- ""                #Input your info
+access_token <- ""              #Input your info
+access_token_secret <- ""       #Input your info
 
 setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 
